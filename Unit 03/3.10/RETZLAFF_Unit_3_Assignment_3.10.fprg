@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="tyler"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-07-17 08:43:34 PM"/>
+        <attribute name="created" value="dHlsZXI7REVTS1RPUDsyMDIwLTA3LTE3OzA2OjEzOjMyIFBNOzIzNzY="/>
+        <attribute name="edited" value="dHlsZXI7REVTS1RPUDsyMDIwLTA3LTE3OzA4OjQzOjM0IFBNOzI7MjQ5Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="value, square, cube" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter a number and the program will calculate the square and the cube.&quot;" newline="True"/>
+            <input variable="value"/>
+            <assign variable="square" expression="sq(value)"/>
+            <assign variable="cube" expression="cube(value)"/>
+            <output expression="&quot;The square is&quot; &amp; square" newline="True"/>
+            <output expression="&quot;The cube is&quot; &amp; cube" newline="True"/>
+        </body>
+    </function>
+    <function name="cube" type="Integer" variable="cube">
+        <parameters>
+            <parameter name="value" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="cube" type="Integer" array="False" size=""/>
+            <assign variable="cube" expression="value * value * value"/>
+        </body>
+    </function>
+    <function name="sq" type="Integer" variable="square">
+        <parameters>
+            <parameter name="value" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="square" type="Integer" array="False" size=""/>
+            <assign variable="square" expression="value * value"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="tyler"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-06-19 06:55:41 PM"/>
+        <attribute name="created" value="dHlsZXI7REVTS1RPUDsyMDIwLTA2LTE5OzA2OjQ4OjQ2IFBNOzIzOTA="/>
+        <attribute name="edited" value="dHlsZXI7REVTS1RPUDsyMDIwLTA2LTE5OzA2OjU1OjQxIFBNOzI7MjQ5Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="myNumber" type="Integer" array="False" size=""/>
+            <declare name="myAnswer" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter a number.&quot;" newline="True"/>
+            <input variable="myNumber"/>
+            <assign variable="myAnswer" expression="myNumber * 10"/>
+            <output expression="&quot;Your number time 10 equals&quot; + myAnswer" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

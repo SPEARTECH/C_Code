@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="tyler"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-07-25 01:56:40 PM"/>
+        <attribute name="created" value="dHlsZXI7REVTS1RPUDsyMDIwLTA3LTI1OzAxOjU0OjAxIFBNOzIzNzE="/>
+        <attribute name="edited" value="dHlsZXI7REVTS1RPUDsyMDIwLTA3LTI1OzAxOjU2OjQwIFBNOzE7MjQ4NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="grade, avg, total" type="Real" array="False" size=""/>
+            <declare name="number, loopvariable" type="Integer" array="False" size=""/>
+            <assign variable="total" expression="0.0"/>
+            <output expression="&quot;How many students are there?&quot;" newline="True"/>
+            <input variable="number"/>
+            <for variable="loopvariable" start="1" end="number" direction="inc" step="1">
+                <output expression="&quot;What is the next student's grade?&quot;" newline="True"/>
+                <input variable="grade"/>
+                <assign variable="total" expression="total + grade"/>
+                <assign variable="avg" expression="total/number"/>
+            </for>
+            <output expression="&quot;The average is &quot; &amp; avg" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="tyler"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-06-27 12:18:41 PM"/>
+        <attribute name="created" value="dHlsZXI7REVTS1RPUDsyMDIwLTA2LTI3OzEyOjA1OjMzIFBNOzIzNzU="/>
+        <attribute name="edited" value="dHlsZXI7REVTS1RPUDsyMDIwLTA2LTI3OzEyOjE4OjQxIFBNOzM7MjQ4OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="value1, value2" type="Integer" array="False" size=""/>
+            <output expression="&quot;Please enter your first value.\n&quot;" newline="True"/>
+            <input variable="value1"/>
+            <output expression="&quot;Please enter your second value.\n&quot;" newline="True"/>
+            <input variable="value2"/>
+            <output expression="&quot;The product is &quot; + (value1 * value2)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

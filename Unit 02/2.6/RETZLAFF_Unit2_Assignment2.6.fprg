@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="tyler"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-07-25 01:37:34 PM"/>
+        <attribute name="created" value="dHlsZXI7REVTS1RPUDsyMDIwLTA3LTI1OzAxOjMwOjI2IFBNOzIzNzI="/>
+        <attribute name="edited" value="dHlsZXI7REVTS1RPUDsyMDIwLTA3LTI1OzAxOjM3OjM0IFBNOzE7MjQ4Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="answer" type="Integer" array="False" size=""/>
+            <output expression="&quot;Do you want to continue?&quot;" newline="True"/>
+            <input variable="answer"/>
+            <while expression="answer != &quot;Y&quot; &amp;&amp; answer != &quot;N&quot;">
+                <output expression="&quot;You must type a Y or an N.&quot; &amp;&#13;&#10;&#13;&#10;&quot; Do you want to continue (Y/N) ?&quot;" newline="True"/>
+                <input variable="answer"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

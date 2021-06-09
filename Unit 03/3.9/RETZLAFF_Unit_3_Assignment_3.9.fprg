@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="tyler"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-07-17 09:56:35 PM"/>
+        <attribute name="created" value="dHlsZXI7REVTS1RPUDsyMDIwLTA3LTE3OzA5OjUzOjI1IFBNOzIzODU="/>
+        <attribute name="edited" value="dHlsZXI7REVTS1RPUDsyMDIwLTA3LTE3OzA5OjU2OjM1IFBNOzE7MjQ5Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="income" type="Integer" array="False" size=""/>
+            <output expression="&quot;What is your annual income?&quot;" newline="True"/>
+            <input variable="income"/>
+            <call expression="printIt(income)"/>
+        </body>
+    </function>
+    <function name="printIt" type="None" variable="">
+        <parameters>
+            <parameter name="income" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <if expression="income &gt; 90000">
+                <then>
+                    <output expression="&quot;Congratulations!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;You WILL make $90,000 if you keep going.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

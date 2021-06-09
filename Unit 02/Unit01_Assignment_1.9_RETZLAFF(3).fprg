@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="tyler"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-06-27 12:21:13 PM"/>
+        <attribute name="created" value="dHlsZXI7REVTS1RPUDsyMDIwLTA2LTI3OzEyOjA1OjMzIFBNOzIzNzU="/>
+        <attribute name="edited" value="dHlsZXI7REVTS1RPUDsyMDIwLTA2LTI3OzEyOjIxOjEzIFBNOzU7MjQ4Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Length, Width" type="Integer" array="False" size=""/>
+            <output expression="&quot;Please enter the Length in feet.\n&quot;" newline="True"/>
+            <input variable="Length"/>
+            <output expression="&quot;Please enter the Width in feet.\n&quot;" newline="True"/>
+            <input variable="Width"/>
+            <output expression="&quot;The area of the floor is &quot; + (Length * Width) + &quot;.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

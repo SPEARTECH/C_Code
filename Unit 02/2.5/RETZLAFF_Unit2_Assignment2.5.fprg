@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="tyler"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-07-25 01:24:24 PM"/>
+        <attribute name="created" value="dHlsZXI7REVTS1RPUDsyMDIwLTA3LTI1OzAxOjIyOjQyIFBNOzIzNzE="/>
+        <attribute name="edited" value="dHlsZXI7REVTS1RPUDsyMDIwLTA3LTI1OzAxOjI0OjI0IFBNOzE7MjQ4MQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="number" type="Integer" array="False" size=""/>
+            <output expression="&quot;What is your number?&quot;" newline="True"/>
+            <input variable="number"/>
+            <if expression="number &gt; 0">
+                <then>
+                    <output expression="&quot;More than 0.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Less than or equal to 0.&quot;" newline="True"/>
+                </else>
+            </if>
+            <output expression="&quot;End of program.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

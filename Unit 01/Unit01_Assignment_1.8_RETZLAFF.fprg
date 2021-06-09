@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="tyler"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-06-27 12:43:10 PM"/>
+        <attribute name="created" value="dHlsZXI7REVTS1RPUDsyMDIwLTA2LTI3OzEyOjM4OjQ1IFBNOzIzODQ="/>
+        <attribute name="edited" value="dHlsZXI7REVTS1RPUDsyMDIwLTA2LTI3OzEyOjQzOjEwIFBNOzE7MjQ4MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="score1, score2" type="Integer" array="False" size=""/>
+            <declare name="total, Average" type="Real" array="False" size=""/>
+            <output expression="&quot;What is the first score?&quot;" newline="True"/>
+            <input variable="score1"/>
+            <output expression="&quot;What is the second score?&quot;" newline="True"/>
+            <input variable="score2"/>
+            <assign variable="Total" expression="score1 + score2"/>
+            <assign variable="Average" expression="total / 2"/>
+            <output expression="&quot;My scores were &quot; + score1 + score2" newline="True"/>
+            <output expression="&quot;My average grade was &quot; + Average" newline="True"/>
+            <if expression="Average &gt;= 65">
+                <then>
+                    <output expression="&quot;You passed.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;You failed.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

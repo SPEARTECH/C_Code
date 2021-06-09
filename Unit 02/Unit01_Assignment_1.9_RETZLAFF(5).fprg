@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="tyler"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-06-27 12:32:20 PM"/>
+        <attribute name="created" value="dHlsZXI7REVTS1RPUDsyMDIwLTA2LTI2OzA1OjQ2OjE0IFBNOzIzODA="/>
+        <attribute name="edited" value="dHlsZXI7REVTS1RPUDsyMDIwLTA2LTI3OzEyOjMyOjIwIFBNOzU7MjQ4Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="baseSalary, totalSales, commRate, pay" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter base salary.&quot;" newline="True"/>
+            <input variable="baseSalary"/>
+            <output expression="&quot;Enter total sales.&quot;" newline="True"/>
+            <input variable="totalSales"/>
+            <output expression="&quot;Enter commission rate: &quot;" newline="True"/>
+            <input variable="commRate"/>
+            <assign variable="pay" expression="baseSalary + (totalSales * (connRate / 100))"/>
+            <output expression="&quot;Salesperson's final pay is: &quot; &amp; pay" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

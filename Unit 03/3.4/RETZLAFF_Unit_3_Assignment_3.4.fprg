@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="tyler"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-07-17 09:18:00 PM"/>
+        <attribute name="created" value="dHlsZXI7REVTS1RPUDsyMDIwLTA3LTE3OzA5OjA2OjQxIFBNOzIzODE="/>
+        <attribute name="edited" value="dHlsZXI7REVTS1RPUDsyMDIwLTA3LTE3OzA5OjE4OjAwIFBNOzE7MjQ4Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="age" type="Integer" array="False" size=""/>
+            <declare name="initial" type="String" array="False" size=""/>
+            <declare name="salary" type="Real" array="False" size=""/>
+            <output expression="&quot;What is your initial?&quot;" newline="True"/>
+            <input variable="initial"/>
+            <output expression="&quot;What is your age?&quot;" newline="True"/>
+            <input variable="age"/>
+            <output expression="&quot;What is your salary?&quot;" newline="True"/>
+            <input variable="salary"/>
+            <call expression="printInfo(initial)"/>
+            <call expression="printOther(age,salary)"/>
+        </body>
+    </function>
+    <function name="printInfo" type="None" variable="initial">
+        <parameters>
+            <parameter name="initial" type="String" array="False"/>
+        </parameters>
+        <body>
+            <output expression="&quot;Your initial is really &quot; &amp; initial &amp; &quot;?&quot;" newline="True"/>
+        </body>
+    </function>
+    <function name="printOther" type="None" variable="">
+        <parameters>
+            <parameter name="age" type="Integer" array="False"/>
+            <parameter name="salary" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <output expression="&quot;You look young for&quot; &amp; age &amp; &quot;.&quot;" newline="True"/>
+            <output expression="&quot;And &quot; &amp; salary &amp; &quot; is a lot of money!&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

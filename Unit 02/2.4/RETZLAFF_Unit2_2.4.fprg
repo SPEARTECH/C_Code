@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="tyler"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-07-25 01:16:08 PM"/>
+        <attribute name="created" value="dHlsZXI7REVTS1RPUDsyMDIwLTA3LTI1OzAxOjEzOjM5IFBNOzIzNzc="/>
+        <attribute name="edited" value="dHlsZXI7REVTS1RPUDsyMDIwLTA3LTI1OzAxOjE2OjA4IFBNOzE7MjQ4NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="number, square" type="Integer" array="False" size=""/>
+            <output expression="&quot;What number do you want to square?&quot;" newline="True"/>
+            <input variable="number"/>
+            <if expression="number &lt;= 100">
+                <then>
+                    <assign variable="square" expression="number * number"/>
+                    <output expression="&quot;The square of&quot; &amp; number &amp; &quot; is &quot; &amp; square &amp; &quot;.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;You entered a number greater than 100.&quot; &amp; &quot;Try again.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

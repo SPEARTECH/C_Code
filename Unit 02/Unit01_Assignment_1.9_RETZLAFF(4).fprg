@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="tyler"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-06-27 12:25:20 PM"/>
+        <attribute name="created" value="dHlsZXI7REVTS1RPUDsyMDIwLTA2LTI2OzA1OjU5OjA0IFBNOzIzODM="/>
+        <attribute name="edited" value="dHlsZXI7REVTS1RPUDsyMDIwLTA2LTI3OzEyOjI1OjIwIFBNOzU7MjQ4NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="width, length, area, tileCount" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter width of the room: &quot;" newline="True"/>
+            <input variable="width"/>
+            <output expression="&quot;Enter length of the room: &quot;" newline="True"/>
+            <input variable="length"/>
+            <assign variable="area" expression="width * length"/>
+            <assign variable="tileCount" expression="area * 4"/>
+            <output expression="&quot;The area of the room is &quot; &amp; area &amp; &quot; and we need to purchase &quot; &amp; tileCount &amp; &quot;square feet 6-inch tiles to cover the floor&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

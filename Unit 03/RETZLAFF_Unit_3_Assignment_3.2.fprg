@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="tyler"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-07-17 08:49:44 PM"/>
+        <attribute name="created" value="dHlsZXI7REVTS1RPUDsyMDIwLTA3LTE3OzA4OjQzOjM1IFBNOzIzODQ="/>
+        <attribute name="edited" value="dHlsZXI7REVTS1RPUDsyMDIwLTA3LTE3OzA4OjQ5OjQ0IFBNOzE7MjQ5OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Function Demo&quot;" newline="True"/>
+            <declare name="firstFunction" type="String" array="False" size=""/>
+            <declare name="secondFunction" type="String" array="False" size=""/>
+            <output expression="&quot;Main ending&quot;" newline="True"/>
+        </body>
+    </function>
+    <function name="firstFunction" type="String" variable="firstFunction">
+        <parameters/>
+        <body>
+            <output expression="&quot;Printing from firstFunction&quot;" newline="True"/>
+        </body>
+    </function>
+    <function name="secondFunction" type="String" variable="secondFunction">
+        <parameters/>
+        <body>
+            <output expression="&quot;Printing from secondFunction&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="tyler"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-06-18 04:43:59 PM"/>
+        <attribute name="created" value="dHlsZXI7REVTS1RPUDsyMDIwLTA2LTE4OzA0OjQxOjExIFBNOzIzNzI="/>
+        <attribute name="edited" value="dHlsZXI7REVTS1RPUDsyMDIwLTA2LTE4OzA0OjQzOjU5IFBNOzE7MjQ5NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="currentYear" type="Integer" array="False" size=""/>
+            <assign variable="currentYear" expression="2020"/>
+            <output expression="&quot;This is my first flowchart!!!&quot;" newline="True"/>
+            <output expression="&quot;The current year is&quot; &amp; currentYear" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
