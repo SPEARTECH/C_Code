@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="tyler"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-06-27 12:25:36 PM"/>
+        <attribute name="created" value="dHlsZXI7REVTS1RPUDsyMDIwLTA2LTI2OzA1OjQ2OjE0IFBNOzIzODA="/>
+        <attribute name="edited" value="dHlsZXI7REVTS1RPUDsyMDIwLTA2LTI3OzEyOjI1OjM2IFBNOzI7MjQ4OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="edgeLength, areaSide, areaCube, Volume" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter length of a side: &quot;" newline="True"/>
+            <input variable="edgeLength"/>
+            <assign variable="" expression=""/>
+            <output expression="&quot;The length of a side is &quot; &amp; edgeLength &amp; &quot; and the surface area of one side if &quot; &amp; areaSide &amp; &quot; and the surface area of the entire cube in &quot; &amp; areaCube &amp; &quot; and the volume of the cube is &quot; &amp; Volume &amp; &quot;!&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
